@@ -1,1 +1,1 @@
-# A Simple App for Tentwenty Assignment for Android Developer Postition
+# A Simple App of Android Developer Postition in Tentwenty
