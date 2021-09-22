@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_conversion_absoluteHeight="58dp"
             tools:layout_conversion_absoluteWidth="80dp"
-            tools:src="@drawable/poster" />
+            tools:src="@drawable/movie" />
 
 
         <LinearLayout

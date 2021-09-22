@@ -13,7 +13,7 @@
         android:layout_weight="1"
         android:scaleType="centerCrop"
         android:src="@drawable/movie"
-        tools:src="@drawable/poster" />
+        tools:src="@drawable/movie" />
 
     <ScrollView
         android:layout_width="match_parent"
