@@ -8,11 +8,19 @@
     <fragment
         android:id="@+id/movieListFragment"
         android:name="uansari.moviester.ui.fragments.movielist.MovieListFragment"
-        android:label="fragment_movie_list_list"
-        tools:layout="@layout/fragment_movie_list" />
+        android:label="Upcoming Movies"
+        tools:layout="@layout/fragment_movie_list" >
+        <action
+            android:id="@+id/action_movieListFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/movieDetailFragment"
         android:name="uansari.moviester.ui.fragments.moviedetail.MovieDetailFragment"
-        android:label="fragment_movie_detail"
-        tools:layout="@layout/fragment_movie_detail" />
+        android:label="Movie Details"
+        tools:layout="@layout/fragment_movie_detail" >
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+    </fragment>
 </navigation>

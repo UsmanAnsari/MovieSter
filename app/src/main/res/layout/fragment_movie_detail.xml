@@ -31,10 +31,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="5dp"
-                android:text="Malang"
                 android:textColor="@color/black"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:text="Malang" />
 
             <Button
                 android:id="@+id/movie_watch_trailer_btn"
@@ -56,9 +56,9 @@
                 android:id="@+id/movie_genres_txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Action, Science Fiction"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                tools:text="Action, Science Fiction" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -72,9 +72,9 @@
                 android:id="@+id/movie_release_date_txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="25.04.2019"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                tools:text="25.04.2019" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -88,9 +88,20 @@
                 android:id="@+id/movie_overview_txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.  "
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                tools:text="Lorem ipsum dolor sit amet," />
+
+            <RatingBar
+                android:id="@+id/movie_ratingBar"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="15dp"
+                android:clickable="false"
+                android:numStars="10"
+                android:rating="7.4" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
