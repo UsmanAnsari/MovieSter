@@ -1,1 +1,1 @@
-# Assignment for Android Developer Postition in Tentwenty
+# MovieSter is a Simple Android App using TMDB API
